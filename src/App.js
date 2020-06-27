@@ -1,10 +1,13 @@
 import React from "react";
+import ThemeProvider from "./components/ThemeProvider";
 import Todo from "./components/Todo";
 
 function App() {
   return (
     <div className="App">
-      <Todo />
+      <ThemeProvider>
+        <Todo />
+      </ThemeProvider>
     </div>
   );
 }
