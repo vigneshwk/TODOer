@@ -5,9 +5,9 @@ import Todo from "./components/Todo";
 function App() {
   return (
     <div className="App">
-      <ThemeProvider>
-        <Todo />
-      </ThemeProvider>
+      {/* <ThemeProvider> */}
+      <Todo />
+      {/* </ThemeProvider> */}
     </div>
   );
 }
